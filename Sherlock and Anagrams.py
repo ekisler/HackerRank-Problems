@@ -15,9 +15,7 @@ import sys
 
 def sherlockAndAnagrams(s):
     # Write your code here
-        # naive idea
-    # iterate through all possible substring
-    # see if it has the same collection of chars
+        
     cnt = 0
 
     for numChar in range(1, len(s)):
